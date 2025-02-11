@@ -6,6 +6,8 @@ services:
     container_name: fastapi_app
     expose:
       - "8000"
+    volumes:
+      - ./logs:/app/logs  # Store logs persistently
     env_file:
       - .env
     restart: always
@@ -15,6 +17,7 @@ services:
     container_name: nginx
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./logs/nginx:/var/log/nginx  # Store logs persistently
     ports:
       - "80:80"
     depends_on:
