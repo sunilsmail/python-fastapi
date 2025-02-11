@@ -7,6 +7,7 @@ python-fastapi
 
 # Run App: Run the Application
 # Run tests: pytest tests/
+## Install Dependencies: pip install -r requirements.txt
 
 <pre>
 📂 fastapi_crud_app/
