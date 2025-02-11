@@ -7,11 +7,14 @@ from sqlalchemy.orm import Session
 from .database import SessionLocal
 from .models import User
 from .schemas import UserResponse
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Secret key for JWT
-SECRET_KEY = "supersecretkey"
+SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", 30))
 
 # Password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
