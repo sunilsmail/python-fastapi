@@ -32,3 +32,9 @@ Open/Closed	New features can be added without modifying existing code (e.g., new
 Liskov Substitution	The repository follows an interface-like structure, ensuring interchangeable implementations.
 Interface Segregation	The API endpoints are modular, not forcing consumers to use unwanted methods.
 Dependency Injection	Database sessions (get_db()) are injected, making testing and refactoring easy.
+
+
+# Build the Docker Image:  docker build -t fastapi-app .
+# Run the Container: docker run -p 8000:8000 fastapi-app
+# Using Docker Compose: docker-compose up --build
+
