@@ -9,3 +9,5 @@ python-jose[cryptography]
 httpx
 pytest
 python=dotenv
+prometheus-fastapi-instrumentator
+
