@@ -2,6 +2,7 @@
 python-fastapi
 
 ## pip install fastapi uvicorn sqlalchemy alembic pydantic
+<pre>
 📂 fastapi_crud_app/
  ├── main.py               # FastAPI application entry point
  ├── database.py           # Database connection setup
@@ -10,3 +11,4 @@ python-fastapi
  ├── repository.py         # Repository layer for CRUD operations
  ├── services.py           # Service layer for business logic
  ├── routes.py             # API routes
+ </pre>
