@@ -7,7 +7,7 @@ python-fastapi
 
 # Run tests: pytest tests/
 ## Install Dependencies: pip install -r requirements.txt
-# Run the application: uvicorn main:app --reload
+# Run the application: uvicorn src.main:app --reload
 
 <pre>
 📂 fastapi_crud_app/
