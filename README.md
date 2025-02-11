@@ -12,3 +12,10 @@ python-fastapi
  ├── services.py           # Service layer for business logic
  ├── routes.py             # API routes
  </pre>
+
+SOLID Principle	Implementation
+Single Responsibility	Each module (database.py, models.py, repository.py, etc.) has a specific task.
+Open/Closed	New features can be added without modifying existing code (e.g., new repository methods).
+Liskov Substitution	The repository follows an interface-like structure, ensuring interchangeable implementations.
+Interface Segregation	The API endpoints are modular, not forcing consumers to use unwanted methods.
+Dependency Injection	Database sessions (get_db()) are injected, making testing and refactoring easy.
