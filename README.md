@@ -2,6 +2,8 @@
 python-fastapi
 
 ## pip install fastapi uvicorn sqlalchemy alembic pydantic
+### pip install python-jose[cryptography] passlib[bcrypt] python-multipart
+
 <pre>
 📂 fastapi_crud_app/
  ├── __init__.py          
