@@ -3,6 +3,7 @@ python-fastapi
 
 ## pip install fastapi uvicorn sqlalchemy alembic pydantic
 ### pip install python-jose[cryptography] passlib[bcrypt] python-multipart
+#### pip install httpx pytest
 
 <pre>
 📂 fastapi_crud_app/
