@@ -37,4 +37,6 @@ Dependency Injection	Database sessions (get_db()) are injected, making testing a
 # Build the Docker Image:  docker build -t fastapi-app .
 # Run the Container: docker run -p 8000:8000 fastapi-app
 # Using Docker Compose: docker-compose up --build
+# Run Everything with Docker Compose: docker-compose up --build
+
 
