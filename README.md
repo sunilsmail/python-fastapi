@@ -5,6 +5,9 @@ python-fastapi
 ### pip install python-jose[cryptography] passlib[bcrypt] python-multipart
 #### pip install httpx pytest
 
+# Run App: Run the Application
+# Run tests: pytest tests/
+
 <pre>
 📂 fastapi_crud_app/
  ├── __init__.py          
