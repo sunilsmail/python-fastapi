@@ -5,9 +5,9 @@ python-fastapi
 ### pip install python-jose[cryptography] passlib[bcrypt] python-multipart
 #### pip install httpx pytest
 
-# Run App: Run the Application
 # Run tests: pytest tests/
 ## Install Dependencies: pip install -r requirements.txt
+# Run the application: uvicorn main:app --reload
 
 <pre>
 📂 fastapi_crud_app/
