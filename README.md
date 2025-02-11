@@ -4,13 +4,19 @@ python-fastapi
 ## pip install fastapi uvicorn sqlalchemy alembic pydantic
 <pre>
 📂 fastapi_crud_app/
+ ├── __init__.py          
  ├── main.py               # FastAPI application entry point
  ├── database.py           # Database connection setup
  ├── models.py             # SQLAlchemy models
- ├── schemas.py            # Pydantic schemas for request/response validation
+ ├── schemas.py            # Pydantic schemas for validation
  ├── repository.py         # Repository layer for CRUD operations
  ├── services.py           # Service layer for business logic
- ├── routes.py             # API routes
+ ├── routes.py             # User API routes
+ ├── auth.py               # Authentication (JWT)
+ ├── tests/                # Unit tests
+ │   ├── __init__.py
+ │   ├── test_main.py       # Test cases
+
  </pre>
 
 SOLID Principle	Implementation
